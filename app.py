@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load the trained SVC model
 
-model = joblib.load('/Users/uchhasdewan/practice projects/flask/svm_model_cov_update.pkl')
+model = joblib.load('svm_model_cov_update.pkl')
 
 print(type(model))
 
